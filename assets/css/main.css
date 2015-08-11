@@ -67,7 +67,7 @@ ______________________________________________________*/
 
   /* set the fixed height of the footer here */
 #footer {
-  height: 200px;
+  height: 250px;
   background-color: #968477;
   border:0 solid #080808;
   border-top-width: 1px;
@@ -109,8 +109,8 @@ ______________________________________________________*/
 }
 img
 {
-	border-radius: 100px;
-	border: 2px solid black;
+	
+	margin-left: 10px;
 }
 /*.carousel .row
 {

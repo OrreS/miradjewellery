@@ -26,13 +26,13 @@
             </div>
             <button type="submit" class="btn btn-default">Subscribe</button>
             </form>
-			<ul class="list-unstyled">
-			<li>You can also follow us on: </li>
-			<img src="">
-			<img src="">
-			<img src="">
-			<li>miradjewellery.co.ke</li>
-		    </ul>
+			
+			<h6 style="color:white;">You can also follow us on: </h6>
+			<img src="<?php echo base_url().'assets/images/Fb.png';?>">
+			<img src="<?php echo base_url().'assets/images/tw.png';?>">
+			<img src="<?php echo base_url().'assets/images/in.jpg';?>">
+			
+		   
 			
 		</div>
 	</div>
