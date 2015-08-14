@@ -1,8 +1,7 @@
 
-
   
 <div class="row">
-  <nav class="navbar-static-top navbar-inverse">
+  <nav class="navbar-static-tops">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -17,8 +16,6 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    
-      </form>
 
       <ul class="nav navbar-nav navbar-right">
         
@@ -26,9 +23,12 @@
         <li><a href="#"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>   Contact</a></li>
         <li><a href="#"> <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>   Wishlist</a></li>
         <li><a href="#"> <span class="glyphicon glyphicon-Shopping-cart" aria-hidden="true"></span> Shopping Bag</a></li>
+
        
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
 </div>
+

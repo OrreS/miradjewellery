@@ -1,4 +1,5 @@
-<div id="footer">
+<div class="footer">
+
 <div class="container" style="height:100%;width:100%;height:200px;">
 	<div class="row">
 		<div class="four columns " >
@@ -37,3 +38,5 @@
 		</div>
 	</div>
 </div>
+</div>
+

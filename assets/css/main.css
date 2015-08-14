@@ -16,21 +16,36 @@ body
 
 }
 
+.ten.columns{
+	margin-left: 4%;
+}
+.three.columns{
+	height: 350px;
+	margin-left: 0;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+.three.columns:first-child{
+	margin-left: 0px;
+}
 /*
 top bar  navgation
 ______________________________________________________*/
 .top-nav {
-    background-color: ;
+
+    background-color:#968477 ;
     color: black;
-    margin-bottom: 20px;
-}
-.top-nav .row {
-	margin-bottom: -10px;
+    margin-bottom: 10px;
+    height: 60px;
+    margin-top: 2px;
+
 }
 
-.top_navigation .nav_wrapper{
-	background-color: green;
+.top-nav .row {
+	margin-left: 0px;
+	margin-right: 0px;
 }
+
 
 .right-body .billboard .row {
 	margin-top: 2px;
@@ -40,22 +55,33 @@ ______________________________________________________*/
 .product .row{
 	margin-bottom: 10px;
 }
+
 .navigation{
 	background-color:#968477;
 }
-.logo{
-	height:100%;margin-top:-8px;float:left;width:300px;
+.navbar-brand {
+	font-size: 48px;
 }
-.navbar .logo a{
-	margin: auto 115px;
+.navbar{
+	margin-bottom: 0px;
 }
-.categories{
-	margin-top:-8px;float:right;width:700px;
+.navbar-brand,.nav > li > a{
+	color: #EBF2F2;
 }
+
+.nav-wrapper .categories li:last-child{
+	margin-bottom: 0;
+}
+.nav-wrapper .categories ul li a{
+	color:#EBF2F2;
+}
+
 
 /*carousel*/
 .billboard{
-	height:350px;
+	margin-top: 0px;
+	height:400px;
+	width: 100%;
 }
 
 .carousel-inner > .item > img,
@@ -63,16 +89,20 @@ ______________________________________________________*/
       width: 100%;
       height: 100%;
       margin: auto;
+
   }
 
   /* set the fixed height of the footer here */
-#footer {
+.footer {
+  bottom:0;
+  width:100%;
   height: 250px;
   background-color: #968477;
   border:0 solid #080808;
   border-top-width: 1px;
   margin-top:50px;
   z-index:100;
+  position: absolute;
 }
 
 
@@ -111,6 +141,15 @@ img
 {
 	
 	margin-left: 10px;
+
+}
+
+ /*login page*/
+.loginform{
+}
+.registerform{
+
+
 }
 /*.carousel .row
 {
@@ -139,3 +178,5 @@ img
 	height: 500px;
 	border:1px solid red;
 }*/
+/*login page*/
+.loginform
