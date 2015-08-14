@@ -17,6 +17,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
+<<<<<<< HEAD
       <ul class="nav navbar-nav navbar-right">
         
         <li><a href="<?php  echo base_url().'home/login'?>"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span>   Log In/Sign Up</a></li>
@@ -24,6 +25,17 @@
         <li><a href="#"> <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>   Wishlist</a></li>
         <li><a href="#"> <span class="glyphicon glyphicon-Shopping-cart" aria-hidden="true"></span> Shopping Bag</a></li>
 
+=======
+      <ul class="nav navbar-nav navbar-right ">
+        <?php if($this->session->userdata('logged_in')){ ?>
+               <li><a href="<?php  echo base_url().'index.php/home/logout'?>"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span>Log Out</a></li>
+        <?php }else{ ?>
+               <li><a href="<?php  echo base_url().'index.php/home/login'?>"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span>Log In/Sign Up</a></li>
+        <?php } ?>
+        <li><a href="#"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Contact</a></li>
+        <li><a href="#"> <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Wishlist</a></li>
+        <li><a href="<?php echo base_url(). 'index.php/home/shopcart'?>"> <span class="glyphicon glyphicon-Shopping-cart" aria-hidden="true"></span>Shopping Bag</a></li>
+>>>>>>> d5460faf70ebbcddaa506361afe20bf716922212
        
       </ul>
     </div><!-- /.navbar-collapse -->
